@@ -5,7 +5,7 @@
 				안녕하세요, <span class="user-name">{{ user.name }}</span
 				>님!
 			</p>
-			<p class="description">어제는 즐겁게 식물 관리하셨나요??</p>
+			<p class="description">어제는 즐겁게 식물 관리하셨나요???</p>
 		</div>
 		<div class="brand" v-if="isLoggedIn">LEAFY</div>
 		<NavBar v-if="isLoggedIn"></NavBar>
